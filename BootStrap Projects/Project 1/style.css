@@ -1,0 +1,9 @@
+body{
+    /* background: url('./Assets/bg1.png') no-repeat center center fixed ; */
+    background-size: cover;
+    background-color:  lightblue;
+}
+h1{
+    margin: 60px;
+    text-align: center;
+}

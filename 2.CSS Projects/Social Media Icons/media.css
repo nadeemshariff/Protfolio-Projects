@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=EB+Garamond:wght@700&family=Fira+Sans:wght@600&family=Montserrat&family=Oswald:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+  overflow-y: hidden;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  margin: 0 auto;
+  max-width: 75rem;
+  margin-top: 1.5rem;
+}
+
+li {
+  display: inline;
+  margin: 1rem;
+  font-size: 1.9rem;
+}
+.strong {
+  text-decoration: underline;
+}
+.button-group {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-button {
+  padding: 0.4rem 1.9rem;
+  border-radius: 0.5rem;
+  background: transparent;
+}
+.button-email {
+  padding: 0.4rem 2.2rem;
+  border-radius: 0.5rem;
+}
+.button-join {
+  padding: 0.4rem 1.9rem;
+  border-radius: 0.5rem;
+  background-color: rgb(84, 83, 83);
+  color: #f5f5f5;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-container-right {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
+.hero-heading {
+  font-size: 4rem;
+  font-family: "Spartan", sans-serif;
+}
+.hero {
+  max-width: 21rem;
+  min-width: 23rem;
+  min-height: 29rem;
+  max-height: 30rem;
+  bottom: 21rem;
+  position: relative;
+}
+.away {
+  display: flex;
+  justify-content: space-around;
+}
+.stars {
+  max-width: 2rem;
+  margin-top: 2rem;
+}
+.star_two {
+  position: relative;
+  right: 18rem;
+}
+.distance {
+  margin-top: 4rem;
+}
+.hero-description {
+  color: rgb(76, 75, 75);
+  font-family: inherit;
+}
+.square {
+  top: 12rem;
+  position: relative;
+  left: 2.9rem;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  body {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+  .hero-container-right {
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1;
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  .hero {
+    max-width: 15rem;
+    min-width: 18rem;
+    min-height: 25rem;
+    max-height: 30rem;
+    position: relative;
+    bottom: 16rem;
+  }
+  .square {
+    left: 2rem;
+    bottom: 156rem;
+    position: relative;
+  }
+
+  .navbar-container {
+    font-size: small;
+  }
+
+  .square {
+    max-width: 20rem;
+    position: relative;
+  }
+
+  .logo {
+    display: none;
+  }
+  .navbar-container .list .list-item {
+    display: 2;
+  }
+
+  .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar-container,
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .button-group {
+    position: absolute;
+  }
+  nav li {
+    margin: 0.8em 0;
+  }
+}
+@media screen and (max-width:767px) {
+    .hero-container{
+        flex-direction: column;
+
+    } 
+    body{
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+    .hero-container-right{
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 1;
+        position: relative;  
+    }
+    .hero{
+        max-width: 15rem;
+        min-width: 18rem;
+        min-height: 25rem;
+        max-height: 30rem; 
+        position: relative;
+        bottom: 16rem;
+     }
+     .square{
+        left: 2rem;
+        bottom: 156rem;
+        position: relative;
+    }
+
+    .navbar-container{
+       font-size: small;
+    }
+
+    .square{
+        max-width: 20rem;
+        position: relative;
+    }
+
+    .logo{
+        display: none;
+    }
+  
+   .navbar-container .list .list-item{
+        display: 2;
+    }
+
+   .container {
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+   .navbar-container{
+        flex-direction: column;
+    }
+    
+   .navbar-container , .list {
+       display: flex;
+       flex-direction: column;
+       margin-top: 2rem;
+    }
+    
+   .button-group {
+        position:absolute  
+    }
+  
+    nav li {
+        margin: 0.8em 0;
+      }  
+}
