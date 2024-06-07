@@ -35,7 +35,22 @@ html[data-theme=dark] {
 
 button {
   outline: none;
+  /* box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, */
+    /* inset -5px -5px 10px #222; */
 }
+
+/* button:hover {
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222,
+    inset -5px -5px 10px #444;
+  color: #000000;
+  transition: 500ms;
+}
+
+button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #000, inset -4px -4px 12px #1f1f1f;
+} */
+
 
 body {
   background-color: var(--bg);
